@@ -1,0 +1,200 @@
+Operators:-
+
+-> Operators are a pre-defined symbol which is used to perform some task or an operation.
+-> There are some special symbols in java which is used to perform some operations.
+-> In operators we have operands. Based on the number of operands we have 3 types of operators.
+   A.) Unary Operator
+   B.) Binary Operator
+   C.) Ternary Operator
+
+ A.) Unary Operator:-
+ -> Which accepts exactly one operand.
+
+ B.) Binary Operator:-
+ -> Which accepts exactly two operands.
+
+ C.) Ternary Operator:-
+ -> Which accepts more than two operands.
+
+-> Classification Of Operators:-
+  1.) Arithmetic Operator
+  2.) Assignment Operator
+  3.) Relational Operator
+  4.) Logical Operator
+  5.) Increment/Decrement Operator
+  6.) Conditional Operator
+  7.) Bitwise Operator
+  8.) Miscellaneous Operator
+
+
+ 1.) Arithmetic Operator:-
+ -> Arithmetic Operator are used to perform some Mathematical Arithmetic operations.
+ -> The pre-defined symbols used in Arithmetic Operator are given below:-
+      
+       + -> Addition
+       - -> Subtraction
+       / -> Division( Quotient )
+       * -> Multiplication
+       % -> Modulus(Remainder)
+
+ 2.) Assignment Operator:-
+ -> Assignment Operator are mainly used to assign values to a variable.
+ -> Assignment Operator are used to reduce the line of an expression.
+ -> Ex:-  int a=45; // the value of a is assigned with 45.
+
+ -> There are some symbols which reduces the expression size. These symbols are given below:-
+       += 
+       -=
+       /=
+       *=
+       %=
+
+ Ex:-  int a=4;
+       int b=5;
+       a+=b; // can also be written as a=a+b;
+       a-=b; // can also be written as a=a-b;
+
+
+ 3.) Relational Operator:-
+ -> Relational Operators are used to check the relation between operands.
+ -> The output or result of relational operator are always in Boolean format.
+ -> The pre-defined symbols used for relational operators are given below:-
+     < -> Lesser
+     > -> Greater
+     <= -> Lesser than or equals to
+     >= -> Greater than or equals to
+     == -> Equals to (Comparison Operator )
+     != -> NotEquals to
+
+ 4.) Logical Operator:-
+ -> Logical Operator are mainly used for performing logical operations for solving complex
+    operations.
+ -> The pre-defined symbols are used for logical operators are:-
+     
+      && -> Logical AND
+
+      || -> Logical OR
+
+       ! -> Logical NOT
+
+   a.) Logical AND( && ):-
+   -> If all the expressions are true, then Logical AND operator returns true or else returns
+      false.
+   -> Below is the Truth Table of Logical AND:-
+  
+      operand1   operand2  Logical AND(&&)
+   
+        T	   T            T
+        T 	   F  	  	F
+        F 	   T	        F
+        F	   F	        F
+
+   b.) Logical OR( || )
+   -> If any one of the expression is true, then Logical OR operator returns true or else false.
+   -> Below is the Truth Table of Logical OR:-
+   
+      operand1   operand2  Logical OR( || )
+        T	   T	       T
+        T	   F	       T
+        F	   T	       T
+        F	   F	       F
+
+   c.) Not Operator( ! )
+   -> Not operator flips the bits. It returns the inverse.
+   -> Below is the Truth Table of NOT Operator:-
+
+      operand     NOT( ! )
+        T	   F   
+        F	   T
+
+
+
+ 5.) Increment/Decrement Operator:-
+ -> In java Increment means increases the value by 1. Decrement means decrease the value by 1.
+ -> The pre-defined symbol used for increment operator is +
+    The pre-defined symbol used for decrement operator is -
+ 
+ -> In java Increment operator are of two types:-
+       a.) Post Increment
+       b.) Pre Increment
+
+       a.) Post Decrement
+       b.) Pre Decrement
+
+  a.) POST Increment and PRE Increment:-
+  -> If the ++ symbol is after the variable name then it is POST Increment.
+     Syntax:-
+     variableName++;  Ex:-  a++;
+  
+  -> If the -- symbol is before the variable name then it is PRE Increment.
+     Syntax:-
+     ++variableName; Ex:-   ++a;
+
+ 
+
+  b.) POST Decrement and PRE Decrement:-
+  -> If the -- symbol is after the variable name then it is POST Decrement.
+     Syntax:-
+     variableName--;  Ex:- a--;
+  
+  -> If the -- symbol is before the variable name then it is PRE Decrement.
+     Syntax:-
+     --variableName;  Ex:- --a;
+
+ 
+    Ex1:-  int a=4;
+           a++;
+           System.out.println(a);// 5
+
+    Ex2:-  int b=10;
+           b++;
+           System.out.println(b);// 11
+
+  
+ -> If we observe the above examples, both post and pre are giving the same values.
+    We should follow some rules of POST and PRE if:-
+         1.) We assign with the same variable name
+         2.) Pass the expression inside print or println statement.
+
+   RULES OF POST:-
+    1.) Use the value, increase/decrease the value by 1 and update in memory
+    2.) Use the substituted value
+  
+   RULES OF PRE:-
+    1.) Use the value, increase/decrease the value by 1 and update in memory
+    2.) Use the incremented/decremented value
+
+
+  Ex1:-  int a=5;
+         a=a++ + a; // should follow rules of POST since it is assigned to a variable name a //
+
+  Ex2:-  int b=5;
+         b++;  // NOT FOLLOW ANY RULES OF POST OR PRE //
+
+
+
+ 6.) Conditional Operator:-
+ -> Conditional Operator are used to check the conditions between operands.
+ -> The conditional operator are used to perform condition based using some pre-defined symbols.
+ -> Syntax:-
+    (Condition) ? "Statment1" : "Statment2";
+
+ -> Condition is always in Boolean format.
+ -> Working:-
+    -> If the condition is true, the statement1 will be executed.
+    -> If the condition is false, the statement2 will be executed.
+ -> We can have n number of conditions but must be passed if the condition is false.
+ 
+
+ 
+
+
+  
+
+
+  
+         
+ 
+ 
+
+          
